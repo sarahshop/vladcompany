@@ -1,15 +1,12 @@
-PROVIDENCE HARDWOOD FLOORING — FINAL GITHUB VERSION
+PROVIDENCE HARDWOOD FLOORING — V14 SIMPLE FLOOR TRANSFORMATION
 
-This ZIP is flat for easy GitHub upload. Upload all files directly to the repository root.
+This version removes the problematic door/room animation entirely.
 
-Updates in this version:
-- Logo is solid and no longer changes color / appears transparent.
-- logo.jpeg is used as the favicon on every page.
-- Door sequence remains manually controlled by scrolling.
-- After the door opens, the camera moves inside and tilts from eye level down toward the floor.
-- Decorative room/furniture background was removed.
-- The old worn floor becomes the full focus before transforming into clean glossy hardwood.
-- Scene remains pinned while the scroll-controlled renovation sequence plays.
+The restoration scene now:
+1. Shows a full screen of clearly worn/damaged wood boards.
+2. Keeps the scene pinned while the user scrolls.
+3. Transforms the old boards into clean finished hardwood.
+4. Finishes with a gloss/light sweep.
+5. Uses unique isolated CSS classes so older scene styles cannot interfere.
 
-QUOTE FORM:
-Still configured for the current recipient email in contact.html.
+Upload all files directly to the same GitHub repository root.
