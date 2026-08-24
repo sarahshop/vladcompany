@@ -1,13 +1,25 @@
-PROVIDENCE HARDWOOD FLOORING — V15 VISIBLE FLOOR FIX
+PROVIDENCE HARDWOOD FLOORING — GITHUB PAGES READY
 
-This version removes the 3D rotated floor plane that was collapsing into a thin strip.
+IMPORTANT:
+This version has NO assets folder.
 
-The restoration scene now:
-- Always keeps the floor visible across the lower ~70% of the screen.
-- Shows large worn boards first.
-- Keeps the scene pinned while scrolling.
-- Replaces the worn boards with polished hardwood.
-- Finishes with a gloss/reflection sweep.
-- Uses a trapezoid-shaped floor area instead of a fragile perspective transform.
+Upload EVERY file in this ZIP directly into the main/root of your GitHub repository.
 
-Upload these files over the existing files in the SAME GitHub repository.
+Your repository should contain:
+index.html
+about.html
+contact.html
+gallery.html
+reviews.html
+services.html
+thanks.html
+styles.css
+app.js
+logo.jpeg
+README.txt
+
+The HTML pages have already been changed to load styles.css, app.js, and logo.jpeg directly from the repository root.
+
+QUOTE FORM:
+The contact form remains configured for Dannywinz19@gmail.com.
+After the site is live, submit one test request and complete the FormSubmit activation email before relying on the form.
