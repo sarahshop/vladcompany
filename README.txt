@@ -1,12 +1,13 @@
-PROVIDENCE HARDWOOD FLOORING — V14 SIMPLE FLOOR TRANSFORMATION
+PROVIDENCE HARDWOOD FLOORING — V15 VISIBLE FLOOR FIX
 
-This version removes the problematic door/room animation entirely.
+This version removes the 3D rotated floor plane that was collapsing into a thin strip.
 
 The restoration scene now:
-1. Shows a full screen of clearly worn/damaged wood boards.
-2. Keeps the scene pinned while the user scrolls.
-3. Transforms the old boards into clean finished hardwood.
-4. Finishes with a gloss/light sweep.
-5. Uses unique isolated CSS classes so older scene styles cannot interfere.
+- Always keeps the floor visible across the lower ~70% of the screen.
+- Shows large worn boards first.
+- Keeps the scene pinned while scrolling.
+- Replaces the worn boards with polished hardwood.
+- Finishes with a gloss/reflection sweep.
+- Uses a trapezoid-shaped floor area instead of a fragile perspective transform.
 
-Upload all files directly to the same GitHub repository root.
+Upload these files over the existing files in the SAME GitHub repository.
